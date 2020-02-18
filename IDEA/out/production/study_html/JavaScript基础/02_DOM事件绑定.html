@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+</head>
+<body>
+    <img id="light" src="../DOMimg/off.gif" onclick="fun();">
+    <img id="light2" src="../DOMimg/off.gif">
+    <h1 id="title">悔创阿里杰克马</h1>
+
+    <script>
+        function fun(){
+            onclick=alert('我被点了');
+        }
+
+        function fun2(){
+            alert('我又被点了');
+        }
+        //获取对象
+        var light2=document.getElementById("light2");
+        light2.onclick=fun2;
+    </script>
+
+
+</body>
+</html>

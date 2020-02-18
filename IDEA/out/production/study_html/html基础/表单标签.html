@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单标签</title>
+</head>
+<body>
+<!--form用于定义表单标签，用于采集用户输入数据的范围-->
+<form action="#" method="get">
+    <label for="username">用户名</label>:<input name="username" placeholder="请输入用户名" id="username"><br/>
+    <label for="password">密码</label>:<input type="password" name="password" placeholder="请输入密码" id="password"><br/>
+    性别<input type="radio" name="gneder" value="male">男
+        <input type="radio" name="gneder" value="female">女<br/>
+
+    爱好
+    <input type="checkbox" name="hobby" avlue="eat">吃<br/>
+    <input type="checkbox" name="hobby" value="drink">喝<br/>
+    <input type="checkbox" name="hobby" value="play">玩<br/>
+
+    图片<input type="flie" name="flie"><br/>
+
+    隐藏域：<input type="hidden" name="hidden" value="sss">
+
+    <input type="submit" value="登录"><br/>
+    <input type="button" value="按钮"><br/>
+    <input type="image" src="../image/regbtn.jpg"><br/>
+    <input type="color" name="color">
+    <input type="date" name="birthday">
+    <input type="datetime-local" name="birthday"><br/>
+    邮箱<input type="email" name="email">
+    年龄<input type="number" name="age"><br/>
+
+    省份<select name="provice">
+            <option value="">---请选择---</option>
+            <option value="1" selected>武汉</option>
+            <option value="2">北京</option>
+            <option value="3">上海</option>
+        </select><br/>
+    自我描述：
+    <textarea cols="20" rows="5" name="text"></textarea>
+
+</form>
+
+</body>
+</html>

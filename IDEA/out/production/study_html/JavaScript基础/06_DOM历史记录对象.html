@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>历史记录</title>
+
+</head>
+<body>
+    <input id="button" type="button" value="获取历史记录">
+
+    <a href="https://www.baidu.com">baidu</a>
+    <input id="forward" type="button" value="前进">
+    <script>
+        /*
+            1.创建
+                window.history
+                history
+            2.方法
+                back()
+                forward()
+                go()
+            3.属性
+                length 返回浏览器历史记录数
+        */
+
+        var btn= document.getElementById("button");
+        btn.onclick=function(){
+            var length=history.length;
+            alert(length);
+
+        }
+
+        var forward= document.getElementById("forward");
+        forward.onclick=function(){
+           history.forward();
+        }
+
+    </script>
+
+</body>
+</html>

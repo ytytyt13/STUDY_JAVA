@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <img id="light" src="../DOMimg/off.gif">
+
+    <script>
+
+        var light=document.getElementById("light");
+        var flag=false;
+
+        function fun(){
+            if(flag)
+            {
+                light.src="../DOMimg/off.gif";
+                flag=false;
+            }else
+            {
+                light.src="../DOMimg/on.gif";
+                flag=true;
+            }
+        }
+        light.onclick=fun;
+
+    </script>
+</body>
+</html>

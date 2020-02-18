@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册界面</title>
+</head>
+<body>
+    <!--定义表单-->
+    <hr color="red" width="1080" size="10" align="center"/>
+    <p align="center">注册</p>
+    <hr/>
+        <table border="1" align="center" width="500">
+            <tr>
+                <td><label for="username">用户名</label></td>
+                <td><input name="username" type="text"  id="username" placeholder="请输入用户名">
+            </tr>
+            <!--密码-->
+            <tr>
+                <td><label for="password">密码</label></td>
+                <td><input name="username" type="text"  id="password" placeholder="请输入密码"></td>
+            </tr>
+            <!--email-->
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input name="email" type="email"  id="email" placeholder="请输入电子邮件"></td>
+            </tr>
+            <!--姓名-->
+            <tr>
+                <td><label for="name">姓名</label></td>
+                <td><input name="name" type="text"  id="name" placeholder="请输入姓名"></td>
+            </tr>
+            <!--手机号-->
+            <tr>
+                <td><label for="tel">手机号</label></td>
+                <td><input  type="text" name="telnum" id="tel" placeholder="请输入手机号"></td>
+            </tr>
+            <!--性别-->
+            <tr>
+                <td><label>性别</label></td>
+            <td><input type="radio" name="gneder" value="male" >男
+                <input type="radio" name="gneder" value="female">女
+            </td>
+            </tr>
+            <!--出生日期-->
+            <tr>
+                <td><label for="birthday">出生日期</label></td>
+                <td><input type="date" name="birthday"  id="birthday" ></td>
+            </tr>
+            <!--验证码-->
+            <tr>
+                <td><label for="checkcode">验证码</label></td>
+                <td><input type="text" name="checkcode"  id="checkcode" >
+                <img src="../image/verify_code.jpg">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="登录" >
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Git/Git.iml" filepath="$PROJECT_DIR$/Git/Git.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IDEA.iml" filepath="$PROJECT_DIR$/IDEA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaWeb/javaWeb.iml" filepath="$PROJECT_DIR$/javaWeb/javaWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java基础/java基础.iml" filepath="$PROJECT_DIR$/java基础/java基础.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java数据库/java数据库.iml" filepath="$PROJECT_DIR$/java数据库/java数据库.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java网络/java网络.iml" filepath="$PROJECT_DIR$/java网络/java网络.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java网页/java网页.iml" filepath="$PROJECT_DIR$/java网页/java网页.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaWeb/tomcat.iml" filepath="$PROJECT_DIR$/javaWeb/tomcat.iml" />
+    </modules>
+  </component>
+</project>

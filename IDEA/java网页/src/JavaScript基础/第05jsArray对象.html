@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>第05jsArray对象</title>
+    <script>
+        /*
+        Array对象
+        1.创建
+            1.var arr=new Array(元素列表)
+            2.var arr=new Array(默认长度)
+            3.var arr=[元素列表]
+
+        2.方法
+            join();将数组中的元素拼接成为
+            push();像集合中添加元素
+
+        3.属性
+        length() 返回数组的长度
+        4.特点
+
+
+
+        */
+        //创建方式1
+        var arr1=new Array(1,2,3);
+        var arr2=new Array(5);
+        var arr3=[1,2,3,4];
+        document.write(arr1+"<br>");
+        document.write(arr1[0]+"<br>");
+        document.write(arr2+"<br>");
+        document.write(arr3+"<br>");
+        arr3.push("dfahgaj");
+
+
+
+        document.write(arr1.join(arr3)+"<br>");
+    </script>
+</head>
+<body>
+
+</body>
+</html>
